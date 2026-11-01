@@ -1,0 +1,11 @@
+[project]
+name = "network-intrusion-detection"
+version = "1.0.0"
+description = "Explainable ML-based network intrusion detection on UNSW-NB15 (traditional ML, no deep learning)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]

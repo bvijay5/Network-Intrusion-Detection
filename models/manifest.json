@@ -1,0 +1,22 @@
+{
+  "logistic_regression.joblib": {
+    "sha256": "8a2c666d3656a3076c461f01024ae75798f58eadf3cf0eaa8c21b275e1ea1248",
+    "model_key": "logistic_regression"
+  },
+  "knn.joblib": {
+    "sha256": "ecb8769e6fb163275d25331bb344dfaefccc06702b7372121dbe4d175c748082",
+    "model_key": "knn"
+  },
+  "svm.joblib": {
+    "sha256": "7f0d3e9de0360d1f537d4e561d3d094d9cf11bdcb1edbc5a2a3356c531985023",
+    "model_key": "svm"
+  },
+  "random_forest.joblib": {
+    "sha256": "4a8b7187da443d19b90dfa071771dd9dc3d2c7c7a8d9859212f90c16c5ad1efc",
+    "model_key": "random_forest"
+  },
+  "xgboost.joblib": {
+    "sha256": "c5cd17a4530645338b4ec1ea9fb0fdc737c73c00401019fed9d341c7e654b75e",
+    "model_key": "xgboost"
+  }
+}

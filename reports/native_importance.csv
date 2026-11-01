@@ -1,0 +1,127 @@
+model_key,feature,importance,method
+logistic_regression,proto,0.3309244008648578,|coefficient| (scaled inputs)
+logistic_regression,state,0.29210470942525546,|coefficient| (scaled inputs)
+logistic_regression,service,0.12179060817368456,|coefficient| (scaled inputs)
+logistic_regression,dttl,0.06661078339438417,|coefficient| (scaled inputs)
+logistic_regression,swin,0.028315155868231672,|coefficient| (scaled inputs)
+logistic_regression,dbytes,0.02533856201888864,|coefficient| (scaled inputs)
+logistic_regression,dmean,0.01227427850577053,|coefficient| (scaled inputs)
+logistic_regression,dload,0.011634641460773311,|coefficient| (scaled inputs)
+logistic_regression,tcprtt,0.01112156719509001,|coefficient| (scaled inputs)
+logistic_regression,sttl,0.009174052967299626,|coefficient| (scaled inputs)
+logistic_regression,is_sm_ips_ports,0.008033099443284192,|coefficient| (scaled inputs)
+logistic_regression,sbytes,0.00582225958444691,|coefficient| (scaled inputs)
+logistic_regression,dloss,0.005300850049371022,|coefficient| (scaled inputs)
+logistic_regression,ct_srv_dst,0.005252790273423682,|coefficient| (scaled inputs)
+logistic_regression,ackdat,0.005161257753927664,|coefficient| (scaled inputs)
+logistic_regression,dinpkt,0.005052525595677799,|coefficient| (scaled inputs)
+logistic_regression,ct_state_ttl,0.004795476364706503,|coefficient| (scaled inputs)
+logistic_regression,djit,0.004204965355822494,|coefficient| (scaled inputs)
+logistic_regression,synack,0.004090109770113452,|coefficient| (scaled inputs)
+logistic_regression,spkts,0.003681392127532648,|coefficient| (scaled inputs)
+logistic_regression,dwin,0.0031975255162338566,|coefficient| (scaled inputs)
+logistic_regression,rate,0.002793275853551582,|coefficient| (scaled inputs)
+logistic_regression,ct_dst_sport_ltm,0.0027440664356988788,|coefficient| (scaled inputs)
+logistic_regression,ct_dst_src_ltm,0.0027380495206915734,|coefficient| (scaled inputs)
+logistic_regression,sload,0.0026797100580630766,|coefficient| (scaled inputs)
+logistic_regression,sloss,0.0026699379023783715,|coefficient| (scaled inputs)
+logistic_regression,ct_dst_ltm,0.0025908312537812257,|coefficient| (scaled inputs)
+logistic_regression,ct_src_dport_ltm,0.002590484872869356,|coefficient| (scaled inputs)
+logistic_regression,sinpkt,0.0024705890191060796,|coefficient| (scaled inputs)
+logistic_regression,response_body_len,0.002329779873082942,|coefficient| (scaled inputs)
+logistic_regression,trans_depth,0.002310068846872735,|coefficient| (scaled inputs)
+logistic_regression,smean,0.0021653397794527862,|coefficient| (scaled inputs)
+logistic_regression,sjit,0.0020567692506626555,|coefficient| (scaled inputs)
+logistic_regression,dpkts,0.0020254550130840657,|coefficient| (scaled inputs)
+logistic_regression,dtcpb,0.0008788102944820614,|coefficient| (scaled inputs)
+logistic_regression,is_ftp_login,0.0007723392274616791,|coefficient| (scaled inputs)
+logistic_regression,ct_ftp_cmd,0.0007723392274616791,|coefficient| (scaled inputs)
+logistic_regression,ct_srv_src,0.0005742000558759968,|coefficient| (scaled inputs)
+logistic_regression,ct_src_ltm,0.0003346280080175457,|coefficient| (scaled inputs)
+logistic_regression,stcpb,0.00031082215746617116,|coefficient| (scaled inputs)
+logistic_regression,dur,0.000216346005738987,|coefficient| (scaled inputs)
+logistic_regression,ct_flw_http_mthd,9.514563542457797e-05,|coefficient| (scaled inputs)
+random_forest,sttl,0.1302246632442913,impurity / gain importance
+random_forest,ct_state_ttl,0.05106329647532081,impurity / gain importance
+random_forest,dload,0.05065083472566441,impurity / gain importance
+random_forest,dttl,0.04368149695602302,impurity / gain importance
+random_forest,rate,0.04341713796452815,impurity / gain importance
+random_forest,sload,0.04185170435481453,impurity / gain importance
+random_forest,tcprtt,0.037742559371632484,impurity / gain importance
+random_forest,dur,0.03704399314689696,impurity / gain importance
+random_forest,synack,0.035604809104897044,impurity / gain importance
+random_forest,state,0.03525616933645498,impurity / gain importance
+random_forest,smean,0.033045205322984696,impurity / gain importance
+random_forest,dinpkt,0.032264257710382806,impurity / gain importance
+random_forest,dmean,0.03157294304212706,impurity / gain importance
+random_forest,dbytes,0.031008105282958724,impurity / gain importance
+random_forest,ct_srv_dst,0.030463211965265725,impurity / gain importance
+random_forest,sbytes,0.028157128522836916,impurity / gain importance
+random_forest,sinpkt,0.027806231564085297,impurity / gain importance
+random_forest,ct_dst_src_ltm,0.027578981107632503,impurity / gain importance
+random_forest,ct_srv_src,0.02455723529428349,impurity / gain importance
+random_forest,ct_dst_sport_ltm,0.023512812018282793,impurity / gain importance
+random_forest,proto,0.022560652563700198,impurity / gain importance
+random_forest,ackdat,0.021043134567344718,impurity / gain importance
+random_forest,dloss,0.014968708783497814,impurity / gain importance
+random_forest,service,0.01449748583723625,impurity / gain importance
+random_forest,spkts,0.014435336997592935,impurity / gain importance
+random_forest,ct_dst_ltm,0.014045687442399528,impurity / gain importance
+random_forest,sjit,0.013213042898067535,impurity / gain importance
+random_forest,djit,0.01297672027794682,impurity / gain importance
+random_forest,sloss,0.011687441486455768,impurity / gain importance
+random_forest,ct_src_dport_ltm,0.011322093593919932,impurity / gain importance
+random_forest,ct_src_ltm,0.010630170398308334,impurity / gain importance
+random_forest,dpkts,0.009561386884922505,impurity / gain importance
+random_forest,is_sm_ips_ports,0.008087274607883721,impurity / gain importance
+random_forest,swin,0.005623807216566314,impurity / gain importance
+random_forest,dtcpb,0.005317981377894005,impurity / gain importance
+random_forest,stcpb,0.004264562598273523,impurity / gain importance
+random_forest,response_body_len,0.0023645300598914274,impurity / gain importance
+random_forest,dwin,0.0022952738170301957,impurity / gain importance
+random_forest,ct_flw_http_mthd,0.0022931826331899848,impurity / gain importance
+random_forest,trans_depth,0.0020065624157836566,impurity / gain importance
+random_forest,ct_ftp_cmd,0.00017055991072698474,impurity / gain importance
+random_forest,is_ftp_login,0.00013162712000407633,impurity / gain importance
+xgboost,sttl,0.7710371134461754,impurity / gain importance
+xgboost,swin,0.04364003714987283,impurity / gain importance
+xgboost,proto,0.0367510458904349,impurity / gain importance
+xgboost,service,0.02460499451916222,impurity / gain importance
+xgboost,ct_srv_dst,0.015915621945870984,impurity / gain importance
+xgboost,ct_dst_sport_ltm,0.014328755479413353,impurity / gain importance
+xgboost,sbytes,0.010394561389991142,impurity / gain importance
+xgboost,state,0.009908588802431478,impurity / gain importance
+xgboost,smean,0.008896698622492044,impurity / gain importance
+xgboost,sloss,0.0067738625669006985,impurity / gain importance
+xgboost,trans_depth,0.006307208518721356,impurity / gain importance
+xgboost,ct_state_ttl,0.006164402783631264,impurity / gain importance
+xgboost,dpkts,0.004693533002296475,impurity / gain importance
+xgboost,dbytes,0.0038517899746480207,impurity / gain importance
+xgboost,ct_dst_src_ltm,0.00379363121178309,impurity / gain importance
+xgboost,dmean,0.0035330429806442842,impurity / gain importance
+xgboost,dloss,0.003173362033722963,impurity / gain importance
+xgboost,spkts,0.002368000188868947,impurity / gain importance
+xgboost,tcprtt,0.0018768104489857475,impurity / gain importance
+xgboost,ct_srv_src,0.0016737899401596784,impurity / gain importance
+xgboost,sinpkt,0.001567609161532785,impurity / gain importance
+xgboost,response_body_len,0.001471216349726336,impurity / gain importance
+xgboost,ct_src_dport_ltm,0.0014100584955268314,impurity / gain importance
+xgboost,dur,0.0013878107140006927,impurity / gain importance
+xgboost,ct_flw_http_mthd,0.0012833560252432864,impurity / gain importance
+xgboost,rate,0.0012224354254549246,impurity / gain importance
+xgboost,synack,0.001198747470071942,impurity / gain importance
+xgboost,ct_dst_ltm,0.001082583146896086,impurity / gain importance
+xgboost,djit,0.0010630713580935384,impurity / gain importance
+xgboost,ct_src_ltm,0.0010184348160952876,impurity / gain importance
+xgboost,is_ftp_login,0.0009547827055729466,impurity / gain importance
+xgboost,sload,0.0009278419898848897,impurity / gain importance
+xgboost,dinpkt,0.0009224454997692219,impurity / gain importance
+xgboost,sjit,0.0009209132413985341,impurity / gain importance
+xgboost,dload,0.0008977823915035417,impurity / gain importance
+xgboost,dttl,0.00076635357586279,impurity / gain importance
+xgboost,ackdat,0.0007588914124049642,impurity / gain importance
+xgboost,dtcpb,0.0007452949767752302,impurity / gain importance
+xgboost,stcpb,0.0007135203479792817,impurity / gain importance
+xgboost,ct_ftp_cmd,0.0,impurity / gain importance
+xgboost,is_sm_ips_ports,0.0,impurity / gain importance
+xgboost,dwin,0.0,impurity / gain importance

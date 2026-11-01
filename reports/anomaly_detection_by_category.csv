@@ -1,0 +1,11 @@
+attack_cat,unsupervised,benign_only
+Analysis,0.0,0.0414
+Backdoor,0.0,0.0566
+DoS,0.013,0.0467
+Exploits,0.0084,0.0733
+Fuzzers,0.0038,0.1057
+Generic,0.0028,0.6144
+Normal,0.0096,0.0662
+Reconnaissance,0.0,0.0054
+Shellcode,0.0,0.0
+Worms,0.0455,0.1591

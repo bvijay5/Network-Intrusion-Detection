@@ -1,0 +1,98 @@
+{
+  "finished_at": "2026-10-24T07:03:16+00:00",
+  "quick_mode": false,
+  "models_trained_this_run": [
+    "logistic_regression",
+    "knn",
+    "svm",
+    "random_forest",
+    "xgboost"
+  ],
+  "random_state": 42,
+  "rows": {
+    "fit": 149039,
+    "validation": 26302,
+    "test": 82332
+  },
+  "validation_fraction": 0.15,
+  "tuning_sample_size": 20000,
+  "cv_folds": 3,
+  "max_train_rows": {
+    "logistic_regression": null,
+    "knn": 30000,
+    "svm": 20000,
+    "random_forest": null,
+    "xgboost": null
+  },
+  "threshold_strategy": "max_f1",
+  "param_grids": {
+    "logistic_regression": {
+      "model__C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "knn": {
+      "model__n_neighbors": [
+        3,
+        5,
+        11,
+        21
+      ],
+      "model__weights": [
+        "uniform",
+        "distance"
+      ]
+    },
+    "svm": {
+      "model__kernel": [
+        "linear",
+        "rbf"
+      ],
+      "model__C": [
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "random_forest": {
+      "model__n_estimators": [
+        100,
+        200
+      ],
+      "model__max_depth": [
+        12,
+        20,
+        null
+      ],
+      "model__min_samples_split": [
+        2,
+        10
+      ]
+    },
+    "xgboost": {
+      "model__n_estimators": [
+        200,
+        400
+      ],
+      "model__max_depth": [
+        4,
+        6,
+        8
+      ],
+      "model__learning_rate": [
+        0.05,
+        0.1
+      ]
+    }
+  },
+  "library_versions": {
+    "python": "3.13.17",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  }
+}

@@ -1,0 +1,17 @@
+# Exact versions used to train the included models and produce the results in
+# README.md (Python 3.13, Linux). Use this file if you want to load the
+# included model files without retraining:
+#     pip install -r requirements-lock.txt
+# If these versions are not available for your Python version, install
+# requirements.txt instead and retrain with:  python -m src.train
+joblib==1.6.0
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.5
+plotly==7.1.0
+pytest==9.1.1
+scikit-learn==1.9.1
+scipy==1.18.1
+shap==0.54.1
+streamlit==1.66.1
+xgboost==3.4.1
